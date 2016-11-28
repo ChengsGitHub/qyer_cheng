@@ -1,0 +1,623 @@
+
+
+/*
+	header - top 部分样式
+	-------------------------------
+*/
+.header{
+	overflow: hidden;
+}
+.header .top {
+	height: 31px;
+	background-color: rgb(247, 247, 247);
+}
+.header .top .top-inner {
+	height: 31px;
+	width: 1000px;
+	margin: 0 auto;
+}
+.header .leftArea {
+	float: left;
+}
+.header .leftArea a {
+	background: url(../images/icon/collection.png) no-repeat left;
+	padding: 19px;
+	line-height: 31px;
+}
+.header .leftArea a:hover{
+	color:red;
+}
+.header .rightArea a:hover{
+	color:red;
+}
+.header .rightArea {
+	line-height: 31px;
+	float: right;
+}
+.header .rightArea span{
+	padding-right: 5px;
+}
+/*
+	header - search 部分样式
+	-------------------------------
+*/
+.header .search {
+	height: 85px;
+	background-color: #1d7ad9;
+}
+.header .search-inner{
+	width: 1000px;
+	height: 85px;
+	margin: 0 auto;
+
+}
+.header .search-inner .logo{
+	padding-left: 41px;
+	float: left;
+}
+.header .search-inner .logo img{
+	display: block;
+}
+.header .search-inner .searchtool{
+	width: 430px;
+	padding-top: 23px;
+	padding-left: 185px;
+	float: left;
+}
+
+.header .search-inner .search-text{
+	width: 350px;
+	height: 35px;
+	padding: 0 5px;
+	background-color: #fff;
+}
+.header .search-inner .search-button{
+	width: 70px;
+    height: 35px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    background: #ff8c00;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+}
+.header .search-inner .trolley{
+	width: 145px;
+    height: 35px;
+    background: #ff8c00;
+    color: #fff;
+    margin-top: 23px;
+    margin-right: 59px;
+    float:right;
+}
+.header .search-inner .trolley .trolleyimg{
+	font-size: 14px;
+    font-family: "Microsoft YaHei";
+    height: 100%;
+    line-height: 35px;
+    width: 87px;
+    border-right: #e27a00 solid 1px;
+    background: url(../images/icon/shopIcon.png) 10px center no-repeat;
+    text-indent: 40px;
+    float: left;
+}
+.header .search-inner .trolley .trolleynum{
+	width: 27px;
+    height: 35px;
+    line-height: 35px;
+    border-left: #ff9c01 solid 1px;
+    background: url(../images/icon/sanjiao.png) 33px center no-repeat;
+    text-align: right;
+    padding-right: 29px;
+    float: right;
+}
+/*
+	header - nav 部分样式
+	-------------------------------
+*/
+.header .nav{
+	height: 35px;
+	background-color: #1369c0;	
+}
+.header .nav .nav-inner{
+	width: 1000px;
+	color: #fff;
+	font-family: "Microsoft YaHei";
+	margin: 0 auto;
+	overflow: hidden;
+}
+.header .nav-inner .classify{
+	width: 190px;
+	height: 35px;
+	float: left;
+	text-align: center;
+    line-height: 35px;
+    position: relative;
+}
+.header .nav-inner .classify span{
+	display: block;
+	background: url(../images/icon/down.png) no-repeat center;
+	width: 13px;
+	height: 8px;
+	position: absolute;
+	top: 15px;
+	left: 150px;
+
+}
+.active {
+	background-color: #4593fd;
+}
+.header .nav-inner ul{
+	width: 624px;
+	height: 35px;
+	float:left;
+}
+.header .nav-inner ul li {
+	float: left;
+	width: 104px;
+	text-align: center;
+	line-height: 35px;
+}
+.header .nav-inner ul li a {
+	display: block;
+		color: #fff;
+}
+/*
+	header - itemlist 部分样式
+	-------------------------------
+*/
+.header .itemlist{
+	width: 1000px;
+	margin: 0 auto;
+}
+.header .itemlist .item-show{
+	width: 190px;
+	height: 330px;
+	float: left;
+	background-color: #4593fd;
+}
+.header .itemlist .item-banner{
+	width: 810px;
+	height: 330px;
+	background: url(../images/banner/banner_01.jpg) no-repeat;
+	float: right;
+}
+.header .itemlist .item-show .item-collect{
+	height: 65px;
+	border-top: 1px solid #5aa1fe;
+    border-bottom: 1px solid #3487f2;
+    background: url(../images/icon/youjiantou.png) no-repeat;
+    background-position: 170px 26px;
+    position: relative;
+}
+.header .itemlist .item-show .first{
+	border-top: none;
+}
+.header .itemlist .item-show .last{
+	border-bottom: none;
+}
+.header .itemlist .item-show .item-collect:hover{
+	background-color: #fff;
+	background-position: -170px 26px;
+}
+.header .itemlist .item-show .item-collect:hover a {
+	color: #000;
+}
+.header .itemlist .item-show .item-top{
+	font-size: 14px;
+	width: 120px;
+	position: absolute;
+	top: 13px;
+	left: 20px;
+}
+.header .itemlist .item-show .heyueji{
+	display: block;
+	width: 50px;
+	height: 16px;
+	background-color: #1369c0;
+	border-radius: 5px;
+	font-size: 12px;
+	text-decoration: underline;
+	float: right;
+	text-align: center;
+	line-height: 16px;
+}
+.header .itemlist .item-show .item-bottom{
+	font-size: 12px;
+	position: absolute;
+	left: 20px;
+	top: 40px;
+	position: relative;
+	width: 150px;
+}
+.header .itemlist .item-show a {
+	color: #fff;
+}
+.header .itemlist .item-collect .item-detail{
+	width: 320px;
+	min-height: 330px;
+	background-color: #fff;
+	position: relative;
+	left: 190px;
+	top: -79px;
+	display: none;
+}
+
+/*
+	header - itemlist detail 部分样式
+	-------------------------------
+*/
+.header .itemlist .item-show .second:hover .item-detail{
+	display: block;
+}
+.header .itemlist .item-show .detail-wrapper {
+	width: 300px;
+	height: 310px;
+	padding: 10px;
+}
+.header .itemlist .item-show .item-line{
+	width: 300px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid lightgrey;
+	overflow: hidden;
+}
+.header .itemlist .item-show .key{
+	width: 70px;
+	color: #4593FD;
+	line-height: 24px;
+	float: left;
+	font-weight: bold;
+}
+.header .itemlist .item-show .content{
+	width: 230px;
+	line-height: 24px;
+	float: right;
+	font-weight: bold;
+}
+.header .itemlist .item-show .content span{
+	padding: 0 2px;
+}
+/*
+	家用电脑 - computer 部分样式
+	-------------------------------
+*/
+.computer {
+	height: 44px;
+	margin: 15px auto;
+	width: 1000px;
+
+}
+.computer .computer-icon {
+	width: 44px;
+	height: 44px;
+	background: url(../images/icon/shopIcon2.png) no-repeat;
+	float: left;
+}
+.computer h3 {
+	font-size: 24px;
+	line-height: 44px;
+	padding-left: 15px;
+	float: left;
+}
+.computer a {
+	float: right;
+	color: #656565;
+}
+.computer a:hover {
+	text-decoration: underline;
+}
+.computer-list{
+	width: 1000px;
+	min-height: 200px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.computer-list .computer-wrapper{
+	width: 1100px;
+	overflow: hidden;
+}
+.computer-list .computer-img{
+	width: 190px;
+	height: 400px;
+	background: url(../images/banner/banner_sm_01.jpg) no-repeat;
+	float: left;
+}
+.computer-list .computer-top{
+	width: 810px;
+	height: 279px;
+	float: left;
+	border-bottom: 1px solid rgb(204, 204, 204);
+	padding-right: -5px;
+
+}
+.computer-list .computer-firstline{
+	width: 202px;
+	height: 279px;
+	border-right: 1px solid rgb(204, 204, 204);
+	border-top: 1px solid rgb(204, 204, 204);
+	float:left;
+	background: url(../images/shopImg.png) no-repeat;
+	background-size: contain;
+	position: relative;
+}
+
+.computer-list .computer-firstline h3 {
+	position: absolute;
+	font-size: 16px;
+	top: 210px;
+	left:50px;
+}
+.computer-list .computer-firstline span{
+	position: absolute;
+	top: 238px;
+	left: 78px;
+	font-size: 14px;
+	color: #ff7300
+}
+.computer-list .computer-bottom {
+	width: 810px;
+	height: 117px;
+	border-bottom: 3px solid #ff7201;
+	float: left;
+}
+.computer-list .computer-secondline {
+	width: 202px;
+	height: 117px;
+	border-right: 1px solid rgb(204, 204, 204);
+	float: left;
+	background: url(../images/shopImgSm.png) no-repeat;
+	background-position: 10px;
+	position: relative;
+
+}
+.computer-list .last-item{
+	width: 200px;
+}
+.computer-list .computer-secondline p {
+	position: absolute;
+	top: 40px;
+	left: 80px;
+	font-size: 14px;
+}
+/*
+	食品酒水 - food 部分样式
+	-------------------------------
+*/
+.food {
+	height: 44px;
+	margin: 15px auto;
+	width: 1000px;
+
+}
+.food .food-icon {
+	width: 44px;
+	height: 44px;
+	background: url(../images/icon/shopIcon2.png) no-repeat;
+	float: left;
+}
+.food h3 {
+	font-size: 24px;
+	line-height: 44px;
+	padding-left: 15px;
+	float: left;
+}
+.food a {
+	float: right;
+	color: #656565;
+}
+.food a:hover {
+	text-decoration: underline;
+}
+.food-list{
+	width: 1000px;
+	min-height: 200px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.food-list .food-img{
+	width: 190px;
+	height: 400px;
+	background: url(../images/banner/banner_sm_02.jpg) no-repeat;
+	float: left;
+}
+.food-list .food-top{
+	width: 810px;
+	height: 279px;
+	float: left;
+	border-bottom: 1px solid rgb(204, 204, 204);
+	padding-right: -5px;
+
+}
+.food-list .food-firstline{
+	width: 202px;
+	height: 279px;
+	border-right: 1px solid rgb(204, 204, 204);
+	border-top: 1px solid rgb(204, 204, 204);
+	float:left;
+	background: url(../images/shopImg3.png) no-repeat;
+	background-size: contain;
+	position: relative;
+}
+
+.food-list .food-firstline h3 {
+	position: absolute;
+	font-size: 16px;
+	top: 220px;
+	left:50px;
+}
+.food-list .food-firstline span{
+	position: absolute;
+	top: 248px;
+	left: 78px;
+	font-size: 14px;
+	color: #ff7300;
+}
+.food-list .food-bottom {
+	width: 810px;
+	height: 117px;
+	border-bottom: 3px solid #ff7201;
+	float: left;
+}
+.food-list .food-secondline {
+	width: 202px;
+	height: 117px;
+	border-right: 1px solid rgb(204, 204, 204);
+	float: left;
+	background: url(../images/shopImgSm2.png) no-repeat;
+	background-position: 10px;
+	position: relative;
+
+}
+.food-list .food-secondline p {
+	position: absolute;
+	top: 50px;
+	left: 90px;
+	font-size: 14px;
+}
+.food-list .food-secondline span{
+	position: absolute;
+	left: 110px;
+	top: 80px;
+	font-size:14px;
+	color: #ff7300;
+}
+.food-list .last-item{
+	width: 200px;
+}
+/*
+	衣服服饰 - cloth 部分样式
+	-------------------------------
+*/
+.cloth {
+	height: 44px;
+	margin: 15px auto;
+	width: 1000px;
+
+}
+.cloth .cloth-icon {
+	width: 44px;
+	height: 44px;
+	background: url(../images/icon/shopIcon2.png) no-repeat;
+	float: left;
+}
+.cloth h3 {
+	font-size: 24px;
+	line-height: 44px;
+	padding-left: 15px;
+	float: left;
+}
+.cloth a {
+	float: right;
+	color: #656565;
+}
+.cloth a:hover {
+	text-decoration: underline;
+}
+.cloth-list{
+	width: 1000px;
+	min-height: 200px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.cloth-list .cloth-img{
+	width: 190px;
+	height: 400px;
+	background: url(../images/banner/banner_sm_03.jpg) no-repeat;
+	float: left;
+}
+.cloth-list .cloth-top{
+	width: 810px;
+	height: 279px;
+	float: left;
+	border-bottom: 1px solid rgb(204, 204, 204);
+	padding-right: -5px;
+
+}
+.cloth-list .cloth-firstline{
+	width: 202px;
+	height: 279px;
+	border-right: 1px solid rgb(204, 204, 204);
+	border-top: 1px solid rgb(204, 204, 204);
+	float:left;
+	background: url(../images/shopImg4.png) no-repeat;
+	background-size: contain;
+	position: relative;
+}
+
+.cloth-list .cloth-firstline h3 {
+	position: absolute;
+	font-size: 16px;
+	top: 225px;
+	left:70px;
+}
+.cloth-list .cloth-firstline span{
+	position: absolute;
+	top: 248px;
+	left: 78px;
+	font-size: 14px;
+	color: #ff7300;
+}
+.cloth-list .cloth-bottom {
+	width: 810px;
+	height: 117px;
+	border-bottom: 3px solid #ff7201;
+	float: left;
+}
+.cloth-list .cloth-secondline {
+	width: 202px;
+	height: 117px;
+	border-right: 1px solid rgb(204, 204, 204);
+	float: left;
+	background: url(../images/shopImgSm3.jpg) no-repeat;
+	background-position: 10px;
+	position: relative;
+
+}
+.cloth-list .cloth-secondline p {
+	position: absolute;
+	top: 50px;
+	left: 120px;
+	font-size: 14px;
+}
+.cloth-list .cloth-secondline span{
+	position: absolute;
+	left: 119px;
+	top: 75px;
+	font-size:14px;
+	color: #ff7300;
+}
+.cloth-list .last-item{
+	width: 200px;
+}
+/*
+	网页底部 - footer 部分样式
+	-------------------------------
+*/
+.footer{
+	background: #d4d4d4;
+	padding:10px 0;
+	margin-top: 40px;
+}
+.footer p{
+	line-height: 24px;
+	text-align: center; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

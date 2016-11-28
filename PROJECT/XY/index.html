@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript">
+		
+		// 判断浏览器是否是移动端
+		var ug = navigator.userAgent.toLowerCase();
+	
+		if (ug.indexOf('iphone') > -1 || ug.indexOf('ipad') > -1 || ug.indexOf('android') > -1) {
+			location.href = 'mobile/index.html';
+		} else {
+			location.href = 'pc/index.html';
+		}
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

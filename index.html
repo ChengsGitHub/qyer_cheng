@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+	<meta charset="UTF-8">
+	<title>穷游·最世界-cheng</title>
+	<!-- 引入外部CSS文件 -->
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" href="css/fontStyle.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+</head>
+<body>
+	<!-- 穷游header开始 -->
+	<div class="qyer-header" ui-view>
+		
+	</div>
+	<!-- 穷游header结束 -->
+
+	<!-- 头部搜索框 （最世界·自由行） 开始-->
+	<div class="header-banner">
+		<div class="header-banner-wrap">
+			<img src="images/index-logo.png" alt="最世界·自由行">
+			<div class="header-banner-search">
+				<input type="text" placeholder="搜索国家、城市、产品" maxlength='35'>
+				<div>
+					<a href="#">
+						<span class="icon icon-search"></span>
+					</a>
+					<a href="#">
+						<p>搜索</p>
+					</a>
+					
+				</div>
+			</div>
+			<div class="header-banner-app">
+				<div class="header-app-wrap">
+					<a href="#" class="icon icon-mobile"></a>
+					<span>APP</span>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<!-- 头部搜索框 （最世界·自由行） 结束-->
+
+	<!-- 首页导航开始 -->
+	<div class="qyer-nav">
+		<ul class="qyer-nav-wrap">
+			<li class="qyer-nav-wrap-list">
+				<a href="#" class="active">
+					首页
+				</a>
+			</li>
+			<li class="qyer-nav-wrap-list">
+				<a href="#">
+					机酒自由行
+				</a>
+			</li>
+			<li class="qyer-nav-wrap-list" style="position:relative;">
+				<a href="#">
+					城市玩乐
+				</a>
+				<div class="citytag">
+					<img src="images/wanletag.gif" alt="" width="37" height="12">
+				</div>
+			</li>
+			<li class="qyer-nav-wrap-list">
+				<a href="#">
+					签证
+				</a>
+			</li>
+			<li class="qyer-nav-wrap-list">
+				<a href="#">
+					租车
+				</a>
+			</li>
+			<li class="qyer-nav-wrap-list">
+				<a href="#">
+					游轮
+				</a>
+			</li>
+			<li class="qyer-nav-wrap-list">
+				<a href="#">
+					海岛游
+				</a>
+			</li>
+			<li class="qyer-nav-wrap-list">
+				<a href="#">
+					限时特卖
+				</a>
+			</li>
+			<li class="qyer-nav-wrap-list">
+				<a href="#">
+					特色路线
+				</a>
+			</li>
+			<li class="qyer-nav-wrap-list">
+				<a href="#">
+					CityWalk
+				</a>
+			</li>
+		</ul>
+	</div>
+	<!-- 首页导航结束 -->
+
+	<!-- 首页轮播开始 -->
+	<div class="qyer-focus">
+		<!-- 轮播图片开始 -->
+		<div class="qyer-focus-slide">
+			<div class="swiper-wrapper">
+			    <div class="swiper-slide">
+			    	<img src="images/slide01.jpg" alt="" width="100%" height="420px">
+			    </div>
+			    <div class="swiper-slide">
+					<img src="images/slide02.jpg" alt="" width="100%" height="420px">
+			    </div>
+			    <div class="swiper-slide">
+					<img src="images/slide03.jpg" alt="" width="100%" height="420px">
+			    </div>
+			    <div class="swiper-slide">
+					<img src="images/slide04.jpg" alt="" width="100%" height="420px">
+			    </div>
+			</div>
+		  	<div class="swiper-pagination"></div>
+		</div>
+		<!-- 轮播图片结束 -->
+
+		<!-- 轮播-分类-标题，开始 -->
+		<div class="qyer-focus-category">
+			<ul class="qyer-focus-category-ul" id="qyer-focus-category-ul">
+				<li class="qyer-focus-category-list">
+					<p class="icon icon-airplane qyer-focus-category-icon fontGreen"></p>
+					<h2 class="qyer-focus-category-title">港澳台&nbsp;国内</h2>
+					<p class="qyer-focus-category-subtitle">香港&nbsp;澳门&nbsp;台湾&nbsp;三亚&nbsp;长白山</p>
+					<span class="qyer-focus-category-lg icon icon-circle-right"></span>
+				</li>
+				<li class="qyer-focus-category-list">
+					<p class="icon icon-airplane qyer-focus-category-icon fontGreen"></p>
+					<h2 class="qyer-focus-category-title">日本&nbsp;韩国</h2>
+					<p class="qyer-focus-category-subtitle">东京&nbsp;大阪&nbsp;冲绳&nbsp;首尔&nbsp;济州岛</p>
+					<span class="qyer-focus-category-lg icon icon-circle-right"></span>
+				</li>
+				<li class="qyer-focus-category-list">
+					<p class="icon icon-airplane qyer-focus-category-icon fontGreen"></p>
+					<h2 class="qyer-focus-category-title">东南亚&nbsp;南亚</h2>
+					<p class="qyer-focus-category-subtitle">普吉&nbsp;清迈&nbsp;沙巴&nbsp;巴厘岛</p>
+					<span class="qyer-focus-category-lg icon icon-circle-right"></span>
+				</li>
+				<li class="qyer-focus-category-list">
+					<p class="icon icon-airplane qyer-focus-category-icon fontGreen"></p>
+					<h2 class="qyer-focus-category-title">欧洲&nbsp;美洲</h2>
+					<p class="qyer-focus-category-subtitle">法国&nbsp;意大利&nbsp;美国&nbsp;英国</p>
+					<span class="qyer-focus-category-lg icon icon-circle-right"></span>
+				</li>
+				<li class="qyer-focus-category-list">
+					<p class="icon icon-airplane qyer-focus-category-icon fontGreen"></p>
+					<h2 class="qyer-focus-category-title">澳新&nbsp;中东非</h2>
+					<p class="qyer-focus-category-subtitle">悉尼&nbsp;新西兰&nbsp;迪拜&nbsp;帕劳</p>
+					<span class="qyer-focus-category-lg icon icon-circle-right"></span>
+				</li>
+				<li class="qyer-focus-category-list">
+					<p class="icon icon-pacman qyer-focus-category-icon fontGreen"></p>
+					<h2 class="qyer-focus-category-title">主题推荐</h2>
+					<p class="qyer-focus-category-subtitle">游轮&nbsp;亲子&nbsp;情侣&nbsp;海岛游&nbsp;购物</p>
+					<span class="qyer-focus-category-lg icon icon-circle-right"></span>
+				</li>
+				<li class="qyer-focus-category-list">
+					<p class="icon icon-feed2 qyer-focus-category-icon fontGreen"></p>
+					<h2 class="qyer-focus-category-title">出行必备</h2>
+					<p class="qyer-focus-category-subtitle">WiFi&nbsp;电话卡&nbsp;接送机&nbsp;保险</p>
+					<span class="qyer-focus-category-lg icon icon-circle-right"></span>
+				</li>
+			</ul>
+			<!-- 轮播-分类-内容，开始 -->
+			<div class="qyer-focus-category-content" id="qyer-focus-category-content">
+				<div class="qyer-focus-category-content01" style="display:none;">
+					<div class="column01">
+						<div class="column01-part01">
+							<h2>香港&nbsp;澳门</h2>
+							<hr>
+							<p>
+								<span class="fontRed">香港迪士尼</span>&nbsp;&nbsp;昂坪360&nbsp;&nbsp;<span class="fontRed">交通接驳</span>&nbsp;&nbsp;太平山缆车&nbsp;&nbsp;<span class="fontRed">海洋公园</span>&nbsp;&nbsp;天际100&nbsp;&nbsp;维港游船&nbsp;&nbsp;一日游&nbsp;&nbsp;<span class="fontRed">水舞间</span>&nbsp;&nbsp;澳门塔&nbsp;&nbsp;摩天轮&nbsp;&nbsp;维港船票&nbsp;&nbsp;<span class="fontRed">豪华自助</span>&nbsp;&nbsp;<span class="fontRed">极限运动</span></span>
+							</p>
+						</div>
+						<div class="column01-part02">
+							<h2>台湾</h2>
+							<hr>
+							<p>
+								<span class="fontRed">台北</span>&nbsp;&nbsp;高雄&nbsp;&nbsp;<span class="fontRed">花莲</span>&nbsp;&nbsp;垦丁&nbsp;&nbsp;<span class="fontRed">宜兰</span>&nbsp;&nbsp;台南&nbsp;&nbsp;澎湖&nbsp;&nbsp;高铁票&nbsp;&nbsp;<span class="fontRed">太鲁阁</span>&nbsp;&nbsp;日月潭&nbsp;&nbsp;阿里山&nbsp;&nbsp;水上活动&nbsp;&nbsp;<span class="fontRed">环岛精选</span>&nbsp;&nbsp;<span class="fontRed">清境农场</span></span>
+							</p>
+						</div>
+					</div>	
+					<div class="column02">
+						<div class="column02-part01">
+							<h2>国内</h2>
+							<hr>
+							<p>
+								<span class="fontRed">三亚</span>&nbsp;&nbsp;厦门&nbsp;&nbsp;<span class="fontRed">丽江</span>&nbsp;&nbsp;西安&nbsp;&nbsp;<span class="fontRed">乌鲁木齐</span>&nbsp;&nbsp;大连&nbsp;&nbsp;上海&nbsp;&nbsp;迪士尼&nbsp;&nbsp;<span class="fontRed">发现王国</span>&nbsp;&nbsp;桂林&nbsp;&nbsp;北海&nbsp;&nbsp;北京周边&nbsp;&nbsp;<span class="fontRed">华东周边</span>&nbsp;&nbsp;<span class="fontRed">成都周边</span></span>
+							</p>
+						</div>	
+						<div class="column02-part02">
+							<img src="images/travel01.jpg" alt="" width="300px" height="175px;">
+						</div>
+					</div>
+				</div>
+				<div class="qyer-focus-category-content01" style="display:none;">
+					<div class="column01">
+						<div class="column01-part01">
+							<h2>日本</h2>
+							<hr>
+							<p>
+								<span class="fontRed">东京</span>&nbsp;&nbsp;大阪&nbsp;&nbsp;<span class="fontRed">冲绳</span>&nbsp;&nbsp;京都&nbsp;&nbsp;<span class="fontRed">北海道</span>&nbsp;&nbsp;札幌&nbsp;&nbsp;名古屋&nbsp;&nbsp;长崎&nbsp;&nbsp;<span class="fontRed">鹿儿岛</span>&nbsp;&nbsp;大阪环球影城&nbsp;&nbsp;关西周游&nbsp;&nbsp;不二雄博物馆&nbsp;&nbsp;<span class="fontRed">三丽欧彩虹乐园</span>&nbsp;&nbsp;<span class="fontRed">大江户温泉物语</span></span>
+							</p>
+						</div>
+						<div class="column01-part02">
+							<h2>韩国</h2>
+							<hr>
+							<p>
+								<span class="fontRed">首尔</span>&nbsp;&nbsp;济州岛&nbsp;&nbsp;<span class="fontRed">乐天世界</span>&nbsp;&nbsp;首尔塔&nbsp;&nbsp;<span class="fontRed">爱宝乐园</span>&nbsp;&nbsp;首尔夜景&nbsp;&nbsp;韩国美食&nbsp;&nbsp;K-LIVE&nbsp;&nbsp;<span class="fontRed">明洞</span>&nbsp;&nbsp;日月潭&nbsp;&nbsp;阿里山&nbsp;&nbsp;韩国文化&nbsp;&nbsp;<span class="fontRed">弘大3D美术院</span>
+							</p>
+						</div>
+					</div>	
+					<div class="column02">
+						<div class="column02-part01">
+							<h2>专题</h2>
+							<hr>
+							<p>
+								有趣の日本
+							</p>
+						</div>	
+						<div class="column02-part02">
+							<img src="images/travel02.jpg" alt="" width="300px" height="175px;">
+						</div>
+					</div>
+				</div>
+				<div class="qyer-focus-category-content01" style="display:none;">
+					<div class="column01">
+						<div class="column01-part01">
+							<h2>泰国</h2>
+							<hr>
+							<p>
+								<span class="fontRed">普吉岛</span>&nbsp;&nbsp;清迈&nbsp;&nbsp;<span class="fontRed">曼谷</span>&nbsp;&nbsp;苏梅岛&nbsp;&nbsp;<span class="fontRed">甲米</span>&nbsp;&nbsp;芭提雅&nbsp;&nbsp;皮皮岛&nbsp;&nbsp;人妖秀&nbsp;&nbsp;<span class="fontRed">丛林飞跃</span>&nbsp;&nbsp;水上市场&nbsp;&nbsp;寻海豚之旅&nbsp;&nbsp;spa按摩&nbsp;&nbsp;<span class="fontRed">大城</span>&nbsp;&nbsp;<span class="fontRed">拜县</span>
+							</p>
+						</div>
+						<div class="column01-part02">
+							<h2>南亚</h2>
+							<hr>
+							<p>
+								<span class="fontRed">马尔代夫</span>&nbsp;&nbsp;斯里兰卡&nbsp;&nbsp;<span class="fontRed">尼泊尔</span>&nbsp;&nbsp;班度士岛&nbsp;&nbsp;<span class="fontRed">秦臻岛</span>&nbsp;&nbsp;蓝色美人蕉&nbsp;&nbsp;伊露岛&nbsp;&nbsp;阿玛瑞岛&nbsp;&nbsp;<span class="fontRed">港丽岛</span>&nbsp;&nbsp;神仙珊瑚岛
+							</p>
+						</div>
+					</div>	
+					<div class="column02">
+						<div class="column02-part01">
+							<h2>东南亚</h2>
+							<hr>
+							<p>
+								<span class="fontRed">新加坡</span>&nbsp;&nbsp;马来西亚&nbsp;&nbsp;<span class="fontRed">沙巴</span>&nbsp;&nbsp;长滩岛&nbsp;&nbsp;<span class="fontRed">巴厘岛</span>&nbsp;&nbsp;柬埔寨&nbsp;&nbsp;杜马盖地&nbsp;&nbsp;美娜多&nbsp;&nbsp;<span class="fontRed">新加坡环球影城</span>&nbsp;&nbsp;红树林萤火虫&nbsp;&nbsp;北海&nbsp;&nbsp;北京周边&nbsp;&nbsp;<span class="fontRed">芭雅岛</span>
+							</p>
+						</div>	
+						<div class="column02-part02">
+							<img src="images/travel03.jpg" alt="" width="300px" height="175px;">
+						</div>
+					</div>
+				</div>
+				<div class="qyer-focus-category-content01" style="display:none;">
+					<div class="column01">
+						<div class="column01-part01">
+							<h2>欧洲</h2>
+							<hr>
+							<p>
+								<span class="fontRed">法国</span>&nbsp;&nbsp;意大利&nbsp;&nbsp;<span class="fontRed">西班牙</span>&nbsp;&nbsp;希腊&nbsp;&nbsp;<span class="fontRed">土耳其</span>&nbsp;&nbsp;瑞士&nbsp;&nbsp;英国&nbsp;&nbsp;捷克&nbsp;&nbsp;<span class="fontRed">巴塞罗那</span>&nbsp;&nbsp;圣托里尼&nbsp;&nbsp;马德里&nbsp;&nbsp;巴库&nbsp;&nbsp;<span class="fontRed">卡帕多奇亚</span>&nbsp;&nbsp;<span class="fontRed">伊斯坦布尔</span><span class="fontRed">法国</span>&nbsp;&nbsp;意大利&nbsp;&nbsp;<span class="fontRed">西班牙</span>&nbsp;&nbsp;希腊&nbsp;&nbsp;<span class="fontRed">土耳其</span>&nbsp;&nbsp;瑞士&nbsp;&nbsp;英国&nbsp;&nbsp;捷克&nbsp;&nbsp;<span class="fontRed">巴塞罗那</span>&nbsp;&nbsp;圣托里尼&nbsp;&nbsp;马德里&nbsp;&nbsp;巴库&nbsp;&nbsp;<span class="fontRed">卡帕多奇亚</span>&nbsp;&nbsp;<span class="fontRed">伊斯坦布尔</span><span class="fontRed">法国</span>&nbsp;&nbsp;意大利&nbsp;&nbsp;<span class="fontRed">西班牙</span>&nbsp;&nbsp;希腊&nbsp;&nbsp;<span class="fontRed">土耳其</span>&nbsp;&nbsp;瑞士&nbsp;&nbsp;英国&nbsp;&nbsp;捷克&nbsp;&nbsp;<span class="fontRed">巴塞罗那</span>&nbsp;&nbsp;圣托里尼&nbsp;&nbsp;马德里&nbsp;&nbsp;巴库
+							</p>
+						</div>
+					</div>	
+					<div class="column02">
+						<div class="column02-part01">
+							<h2>美洲</h2>
+							<hr>
+							<p>
+								<span class="fontRed">美国</span>&nbsp;&nbsp;加拿大&nbsp;&nbsp;<span class="fontRed">洛杉矶</span>&nbsp;&nbsp;纽约&nbsp;&nbsp;<span class="fontRed">拉斯维加斯</span>&nbsp;&nbsp;旧金山&nbsp;&nbsp;圣地亚哥&nbsp;&nbsp;芝加哥&nbsp;&nbsp;<span class="fontRed">西雅图</span>&nbsp;&nbsp;华盛顿&nbsp;&nbsp;奥多兰&nbsp;&nbsp;夏威夷&nbsp;&nbsp;<span class="fontRed">塞班</span>&nbsp;&nbsp;<span class="fontRed">帝国大厦内</span></span><span class="fontRed">美国</span>&nbsp;&nbsp;加拿大&nbsp;&nbsp;<span class="fontRed">洛杉矶</span>&nbsp;&nbsp;纽约&nbsp;&nbsp;<span class="fontRed">拉斯维加斯</span>&nbsp;&nbsp;旧金山&nbsp;&nbsp;圣地亚哥
+							</p>
+						</div>	
+						<div class="column02-part02">
+							<img src="images/travel04.jpg" alt="" width="300px" height="100px;">
+						</div>
+					</div>
+				</div>
+				<div class="qyer-focus-category-content01" style="display:none;">
+					<div class="column01">
+						<div class="column01-part01">
+							<h2>澳洲 新西兰</h2>
+							<hr>
+							<p>
+								<span class="fontRed">澳大利亚</span>&nbsp;&nbsp;新西兰&nbsp;&nbsp;<span class="fontRed">帕劳</span>&nbsp;&nbsp;斐济&nbsp;&nbsp;<span class="fontRed">达尔文</span>&nbsp;&nbsp;瓦纳卡&nbsp;&nbsp;太阳恋人号&nbsp;&nbsp;水母湖&nbsp;&nbsp;<span class="fontRed">观景</span>&nbsp;&nbsp;皇后镇跳伞&nbsp;&nbsp;霍比特人&nbsp;&nbsp;悉尼&nbsp;&nbsp;<span class="fontRed">大堡礁</span>&nbsp;&nbsp;<span class="fontRed">凯库拉</span><span class="fontRed">澳大利亚</span>&nbsp;&nbsp;新西兰&nbsp;&nbsp;<span class="fontRed">帕劳</span>&nbsp;&nbsp;斐济&nbsp;&nbsp;<span class="fontRed">达尔文</span><span class="fontRed">澳大利亚</span>&nbsp;&nbsp;新西兰&nbsp;&nbsp;<span class="fontRed">帕劳</span>&nbsp;&nbsp;斐济&nbsp;&nbsp;<span class="fontRed">达尔文</span>
+							</p>
+						</div>
+						<div class="column01-part02">
+							<h2>非洲</h2>
+							<hr>
+							<p>
+								<span class="fontRed">毛里求斯</span>&nbsp;&nbsp;塞舌尔&nbsp;&nbsp;<span class="fontRed">留尼旺</span>&nbsp;&nbsp;<span class="fontRed">埃及</span>
+							</p>
+						</div>
+					</div>	
+					<div class="column02">
+						<div class="column02-part01">
+							<h2>中东</h2>
+							<hr>
+							<p>
+								<span class="fontRed">迪拜</span>&nbsp;&nbsp;迪拜塔&nbsp;&nbsp;<span class="fontRed">沙漠冲沙</span>&nbsp;&nbsp;西安&nbsp;&nbsp;<span class="fontRed">迪拜直升飞机</span>&nbsp;&nbsp;法拉利公园&nbsp;&nbsp;亚斯水世界&nbsp;&nbsp;八星皇宫
+							</p>
+						</div>	
+						<div class="column02-part02">
+							<img src="images/travel05.jpg" alt="" width="300px" height="175px;">
+						</div>
+					</div>
+				</div>
+				<div class="qyer-focus-category-content01 qyer-focus-category-tuijian" style="display:none">
+					<div class="tuijian-column01">
+						<h2>主题推荐</h2>
+					</div>
+					<div class="tuijian-column02">
+						<ul>
+							<li class="tuijian-img">
+								<img src="images/theme_gouwu.png" alt="" width="80px" height="80px">
+							</li>
+							<li class="tuijian-img">
+								<img src="images/theme_guimi.png" alt="" width="80px" height="80px">
+							</li>
+							<li class="tuijian-img">
+								<img src="images/theme_haidao.png" alt="" width="80px" height="80px">
+							</li>
+							<li class="tuijian-img">
+								<img src="images/theme_maoxianzhilv.png" alt="" width="80px" height="80px">
+							</li>
+							<li class="tuijian-img">
+								<img src="images/theme_qinglv.png" alt="" width="80px" height="80px">
+							</li>
+							<li class="tuijian-img">
+								<img src="images/theme_qinzi.png" alt="" width="80px" height="80px">
+							</li>
+							<li class="tuijian-img">
+								<img src="images/theme_xiaozi.png" alt="" width="80px" height="80px">
+							</li>
+							<li class="tuijian-img">
+								<img src="images/theme_yishuzhilv.png" alt="" width="80px" height="80px">
+							</li>
+							<li class="tuijian-img">
+								<img src="images/theme_zhutileyuan.png" alt="" width="80px" height="80px">
+							</li>
+						</ul>
+					</div>
+				</div>	
+				<div class="qyer-focus-category-content01" style="display:none;">
+					<div class="column01">
+						<div class="column01-part01">
+							<h2>Wi-Fi/电话卡</h2>
+							<hr>
+							<p>
+								<span class="fontRed">日本Wi-Fi</span>&nbsp;&nbsp;韩国上网卡&nbsp;&nbsp;<span class="fontRed">港澳台电话卡</span>&nbsp;&nbsp;欧洲多国通用&nbsp;&nbsp;<span class="fontRed">美国电话卡</span>&nbsp;&nbsp;泰国电话卡&nbsp;&nbsp;新加坡电话卡&nbsp;&nbsp;澳大利亚电话卡&nbsp;&nbsp;<span class="fontRed">阿联酋电话卡</span>&nbsp;&nbsp;英国电话卡&nbsp;&nbsp;美国电话卡
+							</p>
+						</div>
+						<div class="column01-part02">
+							<h2>接送机</h2>
+							<hr>
+							<p>
+								<span class="fontRed">台北</span>&nbsp;&nbsp;高雄&nbsp;&nbsp;<span class="fontRed">首尔</span>&nbsp;&nbsp;垦丁&nbsp;&nbsp;<span class="fontRed">宜兰</span>&nbsp;&nbsp;台南&nbsp;&nbsp;伦敦&nbsp;&nbsp;华盛顿&nbsp;&nbsp;<span class="fontRed">洛杉矶</span>&nbsp;&nbsp;柏林&nbsp;&nbsp;巴黎&nbsp;&nbsp;格拉斯哥&nbsp;&nbsp;<span class="fontRed">爱丁堡</span>&nbsp;&nbsp;<span class="fontRed">北京</span></span>
+							</p>
+						</div>
+					</div>	
+					<div class="column02">
+						<div class="column02-part01">
+							<h2>签证</h2>
+							<hr>
+							<p>
+								<span class="fontRed">泰国</span>&nbsp;&nbsp;韩国&nbsp;&nbsp;<span class="fontRed">日本</span>&nbsp;&nbsp;英国&nbsp;&nbsp;<span class="fontRed">美国</span>&nbsp;&nbsp;加拿大&nbsp;&nbsp;德国&nbsp;&nbsp;法国&nbsp;&nbsp;<span class="fontRed">西班牙</span>&nbsp;&nbsp;土耳其&nbsp;&nbsp;意大利&nbsp;&nbsp;希腊&nbsp;&nbsp;<span class="fontRed">澳大利亚</span>&nbsp;&nbsp;<span class="fontRed">中国</span></span>
+							</p>
+						</div>	
+						<div class="column02-part02">
+							<img src="images/travel06.jpg" alt="" width="300px" height="175px;">
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 轮播-分类-内容，结束 -->
+		</div>
+		<!-- 轮播-分类-标题，结束 -->			
+	</div>
+	<!-- 首页轮播结束 -->
+
+	<!-- 周年庆图片开始 -->
+	<div class="qyer-anniversary">
+		<ul class="qyer-anniversary-ul">
+			<li class="qyer-anniversary-list">
+				<a href="#">
+					<img src="images/zhounianqing01.jpg" alt="" width="275" height="110">
+				</a>
+			</li>
+			<li class="qyer-anniversary-list">
+				<a href="#">
+					<img src="images/zhounianqing02.jpg" alt="" width="275" height="110">
+				</a>
+			</li>
+			<li class="qyer-anniversary-list">
+				<a href="#">
+					<img src="images/zhounianqing03.jpg" alt="" width="275" height="110">
+				</a>
+			</li>
+			<li class="qyer-anniversary-list">
+				<a href="#">
+					<img src="images/zhounianqing04.jpg" alt="" width="275" height="110">
+				</a>
+			</li>
+		</ul>
+	</div>
+	<!-- 周年庆图片结束 -->
+
+	<!-- 限时特卖开始 -->
+	<div class="qyer-sales">
+		<div class="qyer-sales-wrap">
+			<div class="qyer-sales-title">
+				<h2>限时特卖</h2>
+				<p>每日必看的特价精选</p>
+				<p class="change">
+					<span class="icon icon-spinner9"></span>
+					换一换
+				</p>
+			</div>
+			<div class="qyer-sales-content">
+				<ul class="sales-ul">
+					<li class="sales-list">
+						<a href="#">
+							<p class="pic">
+								<img src="images/temai01.jpg" alt="">
+							</p>
+							<h3 class="title">上海往返巴厘岛6天含税机票(可选五星印尼鹰航或香港航空)</h3>
+							<div class="infos">
+								<span class="price">
+									<em>1999</em>元起
+								</span>
+							</div>	
+						</a>
+					</li>
+					<li class="sales-list">
+						<a href="#">
+							<p class="pic">
+								<img src="images/temai02.jpg" alt="">
+							</p>
+							<h3 class="title">【特价甩尾 免费升舱】全国多地直飞马尔代夫6-7天自由行(多星级岛屿可选)</h3>
+							<div class="infos">
+								<span class="price">
+									<em>2999</em>元起
+								</span>
+							</div>	
+						</a>
+					</li>
+					<li class="sales-list">
+						<a href="#">
+							<p class="pic">
+								<img src="images/temai03.jpg" alt="">
+							</p>
+							<h3 class="title">【拒签全退】北京直飞美国拉斯维加斯5-30天往返含税机票（赠境外旅游保险）</h3>
+							<div class="infos">
+								<span class="price">
+									<em>3999</em>元起
+								</span>
+							</div>	
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- 限时特卖结束 -->
+
+	<!-- 机酒自由行开始 -->
+	<div class="qyer-jijiu">
+		<div class="qyer-jijiu-title">
+			<h2 class="jijiu-title">机酒自由行</h2>
+			<p class="jijiu-subtitle">精选全球最优质机票、酒店、邮轮等旅行产品</p>
+			<ul class="jijiu-list">
+				<li>
+					<a href="#" class="fontGreen">今日热卖</a>
+				</li>
+				<li>
+					<a href="#">今日新品</a>
+				</li>
+				<li>
+					<a href="#">闪购</a>
+				</li>
+				<li>
+					<a href="#">假期出行</a>
+				</li>
+				<li>
+					<a href="#">超值机票</a>
+				</li>
+				<li>
+					<a href="#">热门海岛</a>
+				</li>
+				<li>
+					<a href="#">热门推荐</a>
+				</li>
+			</ul>
+		</div>
+		<div class="qyer-jijiu-content">
+			<ul class="jijiu-content-ul">
+				<li class="jijiu-content-firstlist">
+					<a href="#">
+						<img src="images/jijiu01.jpg" alt="" width="570" height="270">
+						<div class="title">
+							<h3>【爆款】【元旦/春节假期】北京直飞伊尔库茨克4-8天自由行(首晚酒店+接机)</h3>
+							<p>旅行时间 2016/03-2017/04</p>
+						</div>
+						<div class="infos">
+							<p class="type">机+酒</p>
+							<p class="price"><em>2199</em>元起</p>
+						</div>
+					</a>
+				</li>
+				<li class="jijiu-content-list">
+					<a href="#">
+						<img src="images/jijiu02.jpg" alt="" width="275" height="185">
+						<div class="title">
+							<h3>【11.11大促特惠/圣诞/元旦/春节假期】北京/上海往返欧洲多地...</h3>
+						</div>
+						<div class="infos">
+							<p class="type">机+酒</p>
+							<p class="price"><em>2999</em>元起</p>
+						</div>
+					</a>
+				</li>
+				<li class="jijiu-content-list">
+					<a href="#">
+						<img src="images/jijiu03.jpg" alt="" width="275" height="185">
+						<div class="title">
+							<h3>上海直飞巴厘岛5-7天自由行(可配全国联运/多酒店套餐选择)</h3>
+						</div>
+						<div class="infos">
+							<p class="type">机+酒</p>
+							<p class="price"><em>3999</em>元起</p>
+						</div>
+					</a>
+				</li>
+				<li class="jijiu-content-list">
+					<a href="#">
+						<img src="images/jijiu04.jpg" alt="" width="275" height="185">
+						<div class="title">
+							<h3>【圣诞/元旦】北京/上海/香港往返塞班岛5-7天自由行...</h3>
+						</div>
+						<div class="infos">
+							<p class="type">机+酒</p>
+							<p class="price"><em>2399</em>元起</p>
+						</div>
+					</a>
+				</li>
+				<li class="jijiu-content-list">
+					<a href="#">
+						<img src="images/jijiu05.jpg" alt="" width="275" height="185">
+						<div class="title">
+							<h3>【元旦/春节假期】上海直飞济州岛4-5天自由行(赠接送机)</h3>
+						</div>
+						<div class="infos">
+							<p class="type">机+酒</p>
+							<p class="price"><em>1099</em>元起</p>
+						</div>
+					</a>
+				</li>
+				<li class="jijiu-content-list">
+					<a href="#">
+						<img src="images/jijiu06.jpg" alt="" width="275" height="185">
+						<div class="title">
+							<h3>【拒签全退】北京/上海往返札幌/东京/大阪4-30天含税机票</h3>
+						</div>
+						<div class="infos">
+							<p class="type">机+酒</p>
+							<p class="price"><em>1299</em>元起</p>
+						</div>
+					</a>
+				</li>
+				<li class="jijiu-content-list jijiu-content-lastlist">
+					<a href="#">
+						<p class="title">查看更多<br>机酒自由行产品</p>
+						<p class="arrow">
+							<span class="icon icon-circle-right"></span>
+						</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- 机酒自由行结束 -->
+
+	<!-- 城市玩乐开始 -->
+	<div class="qyer-city">
+		<div class="qyer-city-title">
+			<h2 class="city-title">城市玩乐</h2>
+			<p class="city-subtitle">像本地人一样，体验最本土的吃喝玩乐</p>
+			<ul class="city-list">
+				<li>
+					<a href="#" class="fontGreen">新西兰</a>
+				</li>
+				<li>
+					<a href="#">泰国</a>
+				</li>
+				<li>
+					<a href="#">日本</a>
+				</li>
+				<li>
+					<a href="#">澳大利亚</a>
+				</li>
+				<li>
+					<a href="#">港澳台</a>
+				</li>
+				<li>
+					<a href="#">美国</a>
+				</li>
+				<li>
+					<a href="#">WiFi/电话卡</a>
+				</li>
+			</ul>
+		</div>
+		<div class="qyer-city-content">
+			<ul class="city-content-ul">
+				<li class="city-content-firstlist">
+					<a href="#">
+						<img src="images/city01.png" alt="" width="370" height="265">
+						<div class="title">
+							<h3>新西兰皇后镇清晨热气球之旅</h3>
+							<div class="infos">
+								<p class="type">城市玩乐</p>
+								<p class="price"><em>2396</em>元起</p>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li class="city-content-list">
+					<a href="#">
+						<img src="images/city02.jpg" alt="" width="120" height="120">
+						<h3 class="title">新西兰奥克兰风帆游艇晚餐夜游(含三道式晚餐)</h3>
+						<p class="price"><em>618</em>元起</p>
+					</a>
+				</li>
+				<li class="city-content-list">
+					<a href="#">
+						<img src="images/city03.jpg" alt="" width="120" height="120">
+						<h3 class="title">新西兰奥克兰3小时美洲杯帆船体验赛 Match Race</h3>
+						<p class="price"><em>808</em>元起</p>
+					</a>
+				</li>
+				<li class="city-content-morelist">
+					<a href="#">
+						<p class="title">查看更多<br>城市玩乐产品</p>
+						<p class="arrow">
+							<span class="icon icon-circle-right"></span>
+						</p>
+					</a>
+				</li>
+				<li class="city-content-list">
+					<a href="#">
+						<img src="images/city04.jpg" alt="" width="120" height="120">
+						<h3 class="title">【第八大奇观终极体验】新西兰米尔福德峡湾过夜巡游(2天1晚)</h3>
+						<p class="price"><em>1584</em>元起</p>
+					</a>
+				</li>
+				<li class="city-content-list">
+					<a href="#">
+						<img src="images/city05.jpg" alt="" width="120" height="120">
+						<h3 class="title">新西兰格林诺奇达特河喷射快艇+魔戒森林徒步半日游</h3>
+						<p class="price"><em>1099</em>元起</p>
+					</a>
+				</li>
+				<li class="city-content-list">
+					<a href="#">
+						<img src="images/city06.jpg" alt="" width="120" height="120">
+						<h3 class="title">新西兰格林诺奇达特河喷射快艇+魔戒森林徒步半日游</h3>
+						<p class="price"><em>684</em>元起</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- 城市玩乐结束 -->
+	
+	<!-- 主题推荐开始 -->
+	<div class="qyer-theme">
+		<div class="qyer-theme-title">
+			<h2 class="theme-title">主题推荐</h2>
+			<p class="theme-subtitle">亲子、蜜月、个性玩法...你想要的这里都有</p>
+			<ul class="theme-list">
+				<li>
+					<a href="#" class="fontGreen">精品小团</a>
+				</li>
+				<li>
+					<a href="#">发现城市</a>
+				</li>
+				<li>
+					<a href="#">亲子家庭</a>
+				</li>
+				<li>
+					<a href="#">情侣蜜月</a>
+				</li>
+				<li>
+					<a href="#">血拼购物</a>
+				</li>
+				<li>
+					<a href="#">闺蜜同游</a>
+				</li>
+				<li>
+					<a href="#">冒险之旅</a>
+				</li>
+			</ul>
+		</div>
+		<div class="qyer-theme-content">
+			<ul class="theme-content-ul">
+				<li class="theme-content-firstlist">
+					<a href="#">
+						<img src="images/zhuti01.jpg" alt="" width="570" height="270">
+						<div class="tagtitle">精品小团</div>
+						<div class="title">
+							<h3>【最世界线路】至美锡兰10天探索之旅——除了雪这里拥有一切</h3>
+						</div>
+						<p class="price"><em>9800</em>元起</p>
+					</a>
+				</li>
+				<li class="theme-content-list">
+					<a href="#">
+						
+						<img src="images/zhuti02.jpg" alt="" width="275" height="185">
+						<div class="img-tips"></div>
+						<div class="title">
+							<h3>【City Walk】从大栅栏到杨梅竹斜街－老北京的城南旧事</h3>
+							<p class="price"><em>88</em>元起</p>
+						</div>
+					</a>
+				</li>
+				<li class="theme-content-list">
+					<a href="#">
+						<img src="images/zhuti03.jpg" alt="" width="275" height="185">
+						<div class="img-tips"></div>
+						<div class="title">
+							<h3>【City Walk】东京下町的庶民情结- Veronica Walk半日行</h3>
+							<p class="price"><em>248</em>元起</p>
+						</div>
+					</a>
+				</li>
+				<li class="theme-content-list">
+					<a href="#">
+						<img src="images/zhuti04.jpg" alt="" width="275" height="185">
+						<div class="img-tips"></div>
+						<div class="title">
+							<h3>【City Walk】“大村庄”里的菜市场 - 巴塞罗那Xiao Walk半日行</h3>
+							<p class="price"><em>168</em>元起</p>
+						</div>
+					</a>
+				</li>
+				<li class="theme-content-list">
+					<a href="#">
+						<img src="images/zhuti05.jpg" alt="" width="275" height="185">
+						<div class="img-tips"></div>
+						<div class="title">
+							<h3>【City Walk】四合院里看北京 - 史家胡同半日行</h3>
+							<p class="price"><em>88</em>元起</p>
+						</div>
+
+					</a>
+				</li>
+				<li class="theme-content-list">
+					<a href="#">
+						<img src="images/zhuti06.jpg" alt="" width="275" height="185">
+						<div class="img-tips"></div>
+						<div class="title">
+							<h3>【City Walk】四合院里看北京 - 史家胡同半日行</h3>
+							<p class="price"><em>88</em>元起</p>
+						</div>
+
+					</a>
+				</li>
+				<li class="theme-content-list theme-content-lastlist">
+					<a href="#">
+						<p class="title">查看更多<br>主题推荐产品</p>
+						<p class="arrow">
+							<span class="icon icon-circle-right"></span>
+						</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- 主题推荐结束 -->
+
+	<!-- 底部导航开始 -->
+	<div class="qyer-footerprepend">
+		<ul class="qyer-footer-nav">
+			<li><a href="#">机酒自由行</a></li>
+			<li><a href="#">城市玩乐</a></li>
+			<li><a href="#">签证</a></li>
+			<li><a href="#">租车</a></li>
+			<li><a href="#">邮轮</a></li>
+			<li><a href="#">海岛游</a></li>
+			<li><a href="#">限时特卖</a></li>
+			<li><a href="#">特色线路</a></li>
+			<li><a href="#">CityWalk</a></li>
+		</ul>
+		<ul class="qyer-footer-feature">
+			<li>
+				<p class="icon zybz"></p>
+				<h3 class="title">专业保证</h3>
+				<p class="text">我们收集穷游er的真实诉求，也找寻全世界最独特的旅行目的地，让更多的穷游er轻松出行</p>
+			</li>
+			<li>
+				<p class="icon dcsh"></p>
+				<h3 class="title">多重审核</h3>
+				<p class="text">对旅游产品供应商严格筛选，资质认证层层把关，为穷游er精挑细选最值得信赖的旅行产品</p>
+			</li>
+			<li>
+				<p class="icon axph"></p>
+				<h3 class="title">安心陪护</h3>
+				<p class="text">对所有穷游er的购买进行跟踪服务以及质量监控，有效投诉先行赔付，出现任何问题负责到底</p>
+			</li>
+		</ul>
+	</div>
+	<!-- 底部导航结束 -->
+
+
+	<!-- 网页底部开始 -->
+	<div class="qyer-footer">
+		<div class="qyer-footer-wrap">
+			<div class="footer-line1">
+				<img src="images/foot-logo.png" alt="">
+				<p>最世界·自由行——从一张机票、一家酒店的订购，到一次暖心的接机服务、一张轻松融入当地的交通卡，让我们带你探索这个世界</p>
+			</div>
+			<div class="footer-line2">
+				<div class="footer-link">
+					<a class="item" href="#">关于最世界·自由行</a>
+					<span>|</span>
+					<a class="item" href="#">服务与隐私</a>
+					<span>|</span>
+					<a class="item" href="#">联系我们</a>
+					<span>|</span>
+					<a class="item" href="#">旅游度假资质</a>
+					<span>|</span>
+					<a class="item" href="#">营业执照</a>
+					<span>|</span>
+					<a class="item" href="#">投诉建议</a>
+				</div>
+				<div class="footer-copy">2004-2016 © 穷游网™ qyer.com All rights reserved. Version v5.57  京ICP备12003524号  京公网安备11010502023470  京ICP证140673号</div>
+			</div>
+		</div>
+	</div>
+	<!-- 网页底部结束 -->
+
+	<!-- 回到顶部开始 -->
+	<div class="backtop" style="display: none;">
+		<a href="aboutMe.html" class="aboutme icon icon-user-tie">
+			<img src="images/me02.jpg" alt="" width="52" height="52">
+		</a>
+		<a href="#" class="weixin xuebi">
+			<div class="weixin-tip"></div>
+		</a>
+		<a href="#" class="msg xuebi"></a>
+		<a href="#" class="app xuebi">
+			<div class="app-tip"></div>
+		</a>
+		<a href="javascript:;" id="backTop" class="xuebi"></a>
+	</div>
+	<!-- 回到顶部结束 -->
+	
+
+	<!-- 引入Jquery -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<!-- 引入index.js -->
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/swiper.min.js"></script>
+	<!-- 引入angularJS -->
+	<script type="text/javascript" src="js/angular.js"></script>
+	<script type="text/javascript" src="js/angular-ui-router.js"></script>
+	<!-- 引入地理定位JS -->
+	<script type="text/javascript" src="js/location.js"></script>
+	<!-- 引入layer -->
+	<script type="text/javascript" src="js/layer/layer.js"></script>
+
+
+	<script type="text/javascript">
+		var mySwiper = new Swiper('.qyer-focus-slide',{
+		    loop: true,
+			autoplay: 3000,
+			pagination:'.swiper-pagination',
+			paginationonClickable:false,
+			autoplayDisableOnInteraction:false,
+
+		});
+
+		// 创建模块
+
+		var myApp = angular.module('myApp',['ui.router']);
+
+		// 在config中配置路由，
+		myApp.config(['$stateProvider','$urlRouterProvider',function($stateProvider,$urlRouterProvider) {
+				$stateProvider
+				.state('navi-router',{
+					url:'/navi-router',
+					templateUrl:'tpls/navi.html'
+				})
+		// 配置默认路由跳转地址
+		$urlRouterProvider.otherwise('/navi-router');
+		}]);
+	</script>
+</body>
+</html>

@@ -1,0 +1,344 @@
+/*头部logo样式*/
+#header {
+	width: 960px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+/*顶部导航样式*/
+#nav-top {
+	height: 50px;
+	background-color: #47A3DA;
+	line-height: 50px;
+}
+#nav-top ul {
+	width: 960px;
+	margin: 0 auto;
+
+}
+#nav-top ul li {
+	float: left;
+	width: 160px;
+	font-size: 18px;
+	text-align: center;
+}
+#nav-top ul li a {
+	display: block;
+	color: #fff;
+}
+#nav-top ul li a:hover {
+	color: #0068b7;
+	background-color: #e6f2fa;
+
+}
+.active {
+	background-color: #0068b7;
+}
+
+/*顶部导航下面的广告样式*/
+#banner {
+	background-image: url(../images/02.jpg);
+	height: 250px;
+}
+
+/*页面主页面样式*/
+#main {
+	width: 960px;
+	margin: 0 auto;
+	min-height: 400px;
+	margin-top: 30px;
+	/*background-color: #AAAAAA;*/
+	
+}
+/*新闻事件样式*/
+#main #news {
+	width: 320px;
+	background-color: #fff;
+	float: left;
+	
+}
+#main #news p {
+	font-size: 14px;
+	font-weight: bold;
+	border-left: 5px solid #0068b7;
+	padding-left: 15px;
+	color: gray;
+	
+}
+#main #news #news-banner {
+	background-image: url(../images/ecimg4.jpg);
+	margin: 20px 20px 20px 0px;
+	height: 90px;
+}
+#main #news ul {
+	width: 300px;
+	padding-left: 15px;
+}
+#main #news ul li {
+	line-height: 20px;
+	list-style-image: url(../images/dot.jpg);
+	
+}
+#main #news ul li a:hover {
+	text-decoration: underline;
+}
+
+/*产品方案样式*/
+#main #products {
+	width: 320px;
+	background-color: #fff;
+	float: left;
+	
+}
+#main #products p {
+	font-size: 14px;
+	font-weight: bold;
+	border-left: 5px solid #0068b7;
+	padding-left: 15px;
+	color: gray;
+	
+}
+#main #products #products-banner {
+	background-image: url(../images/ecimg6.jpg);
+	margin: 20px 20px 20px 0px;
+	height: 90px;
+}
+#main #products ul {
+	width: 300px;
+	padding-left: 15px;
+}
+#main #products ul li {
+	line-height: 20px;
+	list-style-image: url(../images/dot.jpg);
+	
+}
+#main #products ul li a:hover {
+	text-decoration: underline;
+}
+/*人才派遣样式*/
+#main #employees {
+	width: 320px;
+	background-color: #fff;
+	float: left;
+	
+}
+#main #employees p {
+	font-size: 14px;
+	font-weight: bold;
+	border-left: 5px solid #0068b7;
+	padding-left: 15px;
+	color: gray;
+	
+}
+#main #employees #employees-banner {
+	background-image: url(../images/ecimg6.jpg);
+	margin: 20px 20px 20px 0px;
+	height: 90px;
+}
+#main #employees ul {
+	width: 300px;
+	padding-left: 15px;
+}
+#main #employees ul li {
+	line-height: 20px;
+	list-style-image: url(../images/dot.jpg);
+	
+}
+#main #employees ul li a:hover {
+	text-decoration: underline;
+}
+/*flash样式*/
+#flash {
+	width: 960px;
+	height: 90px;
+	background-color: #AAAAAA;
+	margin: 20px auto 30px;
+}
+.clearfix {
+	clear: both;
+}
+/*经典案例样式*/
+#main #classic {
+	width: 320px;
+	float: left;
+	
+}
+#main #classic p {
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 15px;
+	color: #0068b7;
+}
+#main #classic #classic-wrapper {
+	height: 100px;
+	background-image: url(../images/icon1.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+	margin: 15px auto 20px 20px;
+	/*position: relative;
+	left: 13px;
+	top: 30px;*/
+}
+#main #classic ul {
+	width: 300px;
+	
+} 
+#main #classic ul li {
+	line-height: 20px;
+	list-style-image: url(../images/dot.jpg);
+	position: relative;
+	left: 100px;
+}
+#main #classic ul li a:hover {
+	text-decoration: underline;
+}
+/*最新招聘样式*/
+#main #recruit {
+	width: 320px;
+	float: left;
+	
+}
+#main #recruit p {
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 15px;
+	color: #0068b7;
+}
+#main #recruit #recruit-wrapper {
+	height: 100px;
+	background-image: url(../images/icon1.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+	margin: 15px auto 20px 20px;
+	/*position: relative;
+	left: 13px;
+	top: 30px;*/
+}
+#main #recruit ul {
+	width: 300px;
+	
+} 
+#main #recruit ul li {
+	line-height: 20px;
+	list-style-image: url(../images/dot.jpg);
+	position: relative;
+	left: 100px;
+}
+#main #recruit ul li a:hover {
+	text-decoration: underline;
+}
+
+/*公益事业样式*/
+#main #service {
+	width: 320px;
+	float: left;
+	
+}
+#main #service p {
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 15px;
+	color: #0068b7;
+}
+#main #service #service-wrapper {
+	height: 100px;
+	background-image: url(../images/icon1.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+	margin: 15px auto 20px 20px;
+	/*position: relative;
+	left: 13px;
+	top: 30px;*/
+}
+#main #service ul {
+	width: 300px;
+	
+} 
+#main #service ul li {
+	line-height: 20px;
+	list-style-image: url(../images/dot.jpg);
+	position: relative;
+	left: 100px;
+}
+#main #service ul li a:hover {
+	text-decoration: underline;
+}
+
+/*合作伙伴样式*/
+/*#main #partner {
+	margin-top: 10px;
+}*/
+#main #partner p{
+	border-top:2px dotted lightgray;
+	line-height: 40px;
+	color: #0068b7;
+	font-size: 14px;
+	font-weight: bold;	
+}
+#main #partner #partner-wrapper {
+	width: 1000px;
+}
+#main #partner #partner-wrapper img{
+	border:1px solid lightgray;
+	padding-right: 2px;
+	width: 113px;
+}
+#main #banner-bottom {
+	width: 960px;
+	height: 250px;
+	background-image: url(../images/04.jpg);
+	background-repeat: no-repeat;
+
+}
+/*网页底部样式*/
+#footer{
+	background-color: #4b4b4b;
+	color: #fff;
+	padding: 20px 0;
+	margin-top: 20px;
+}
+#footer .wrapper {
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#footer .wrapper dl{
+	float: left;
+	width: 320px;
+	line-height: 20px;
+}
+#footer .wrapper dl dt{
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

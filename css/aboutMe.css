@@ -1,0 +1,279 @@
+/*
+	轮播图 样式
+-------------------------------------------
+*/
+body {
+    background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+}
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f6f8fa;
+}
+.swiper-slide {
+	/*background: url(../images/aboutme-bg.jpg);*/
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+
+}
+/*
+    导航 样式
+-------------------------------------------
+*/
+.menuItem{
+    width: 20%;
+}
+#myCollapse{
+    text-align: center;
+}
+ #navbar-example{
+    min-height: 60px;
+    line-height: 60px;
+    background: #262b37;
+    color:#c3c8d6;
+    border:none;
+    font-size:14px;
+    margin-bottom: 0;
+
+    text-transform:uppercase;
+}
+.navbar-nav{
+    margin: 0 auto;
+    text-align: center;
+    float: none;
+}
+
+#navbar-example ul>li>a{
+  color:#c3c8d6;
+  padding:22px 25px;
+  line-height:18px;
+  text-align:center;
+
+}
+#navbar-example ul>li>a:hover{
+    color:#fff;
+}
+#navbar-example ul>li.active>a,#navbar-example ul>li.active>a:focus{
+    background:#1b1f29;
+    color:#c3c8d6;
+} 
+/*
+    EDUCATION 样式
+---------------------------------------------
+*/
+.education{
+    height: 100%;
+    background: #00bdbd;
+    color: #fff;
+    width: 100%;
+    font-size: 14px;    
+
+    position: relative;
+}
+.education .container,.skills .container{
+    padding-top:55px ;
+    padding-bottom:93px ;
+}
+.education .head,.skills .head{
+    padding:0;
+    margin: 0 0 30px 0;
+    text-align: center;
+}
+
+.education .img{
+    width: 200px;
+    height: 200px;
+    background: url('../images/me02.jpg') no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    
+}
+/*
+    Skill 样式
+---------------------------------------------
+*/
+#skills .part {
+    position: relative;
+    left: 100px;
+}
+#skills .part h4 {
+    position: relative;
+    left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#skills .part .short{
+    left: 60px;
+}
+/*
+    EXPERIENCES 样式
+---------------------------------------------
+*/
+.experience{
+    background-color: #eee;
+
+}
+.experience .container{
+    padding:80px 10px 90px 10px;
+
+}
+.works{
+    margin-bottom: 15px;
+}
+.experience .container h1{
+    text-align: center;
+    font-size: 36px;
+    line-height: 38px;
+    font-weight: 300;
+    color: #ff675f;
+    margin:0;
+    padding-bottom:60px;
+}
+.logo{
+    font-size:17px;
+    color:#fff;
+    background:#ff675f;
+    text-align:center;
+    width:120px;
+    height:120px;
+    margin:0 auto;
+    padding:40px 0 40px 0;
+    line-height: 50px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.rightpart{
+    padding:0 40px 0 40px;
+     border-left: solid 1px #ccc;
+    
+}
+.con{
+    position: relative;
+    background-color: #fff;
+    border-bottom: 4px solid #ccc;
+    padding:20px;
+}
+.dlzs {
+    background: url(../images/zhisen.jpg) no-repeat;
+    background-size: cover;
+}
+.xy {
+    background: url(../images/project01.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.chuanpiao {
+    background: url(../images/project05.jpg) no-repeat;
+    background-size: cover;
+}
+.qiongyou {
+    background: url(../images/qyer-header-logo.png) no-repeat;
+    background-position: 0 40px;
+    background-color: rgba(0,0,0,0.5);
+}
+.bbs {
+    background: url(../images/liuyanban.jpg) no-repeat;
+    background-size: cover;
+}
+/*
+    CONTACT 样式
+---------------------------------------------
+*/
+.contact{
+    background: #474d5d;
+}
+.contact .container{
+    padding:40px 0;
+    padding-bottom: 0;
+}
+.contact h4{
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 34px;
+    color:#fff;
+}
+.contact .container h1{
+    text-align: center;
+    font-size: 36px;
+    line-height: 38px;
+    font-weight: 300;
+    color: #fff;
+    margin:0;
+    padding-bottom:60px;
+}
+.contact p{
+    color: #93959c;
+    font-size: 15px;
+    line-height: 19px;
+    margin:0;
+    margin-bottom: 25px;
+
+}
+.contact p a{
+    color:#ff675f;
+    text-decoration: underline;
+
+}
+.contact p>span{
+    float: left;
+    display: block;
+    margin-right: 20px;
+    width: 19px;
+    height: 19px;
+    line-height: 19px;
+}
+.msg input{
+    background:#585f73;
+    color:#93959c;
+    padding:10px 20px;
+    border:0;
+    margin-bottom: 30px;
+    margin-right: 5px;
+}
+.msg #textarea{
+    height: 100px;
+}
+.msg .btn{
+    background: #ff675f;
+    color: #fff;
+    padding:15px 20px;
+    font-weight: 600;
+    font-size: 15px;
+}
+#navMenu ul li:hover {
+    background-color: lightgrey;
+}
+#navMenu ul li:hover a {
+    color: #fff;
+}
+#bdmap {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+}
+/*
+       返回顶部按钮 样式
+----------------------------------------------------
+*/
+#topcontrol{
+    position: fixed;
+    bottom: 80px;
+    right: 5px;
+    cursor: pointer;
+}
+.fixed {
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+    width: 100%;
+}
+.hover{
+    background-color: rgba(0,0,0,0.5);
+}
+

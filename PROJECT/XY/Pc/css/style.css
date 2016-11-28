@@ -1,0 +1,383 @@
+
+
+/*
+       顶部logo样式
+--------------------------
+*/
+html,body{
+	width: 100%;
+}
+.logo{
+	width: 980px;
+	margin: 0 auto;
+	position: relative;
+	height: 40px;
+	padding-top: 15px;
+}
+.logo > a {
+	display: block;
+	width: 174px;
+	height: 40px;
+	background: url(../images/logo.png) no-repeat;
+	text-indent: -100000px;
+	float: left;
+}
+.logo ul {
+	float: right;
+}
+.logo ul li {
+	float: left;
+	width: 96px;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	
+}
+.logo ul li a {
+	color: #95d3ff;
+	display: block;
+	font-size: 16px;
+}
+.logo ul li a:hover{
+	background: url(../images/downloadHeader.png) no-repeat;
+}
+/*
+       banner 样式
+--------------------------
+*/
+.banner {
+	background: url(../images/top_bg.jpg) no-repeat center;
+	height: 540px;
+	width: 100%;
+	margin-top: -55px;
+}
+.banner .banner-inner{
+	/*overflow: hidden;*/
+	width: 980px;
+	height: 540px;
+	margin: 0 auto;	
+}
+.banner .banner-inner .left-area {
+	width: 490px;
+	height: 485px;
+	background: url(../images/bg_top_cinema_0.png) no-repeat ;
+	float: left;
+}
+.banner .banner-inner .right-area{
+	width: 490px;
+	height: 485px;
+	float: left;
+	position: relative;
+}
+.banner-inner .right-area .rightarea-bg{
+	width:490px;
+	height: 200px;
+	background: url(../images/img.png) no-repeat; 
+	position: absolute;
+	top: 30px;
+	left: 10px;
+}
+.banner-inner .right-area a {
+	display: block;
+	width: 255px;
+	height: 80px;
+	background: url(../images/img.png) no-repeat -14px -205px;
+	position: absolute;
+	top: 280px;
+	left: 30px;
+}
+.banner-inner .right-area span {
+	display: block;
+	width: 335px;
+	height: 40px;
+    background: url(../images/img.png) no-repeat -14px -287px;
+    position: absolute;
+	top: 370px;
+	left: 30px;
+}
+/*
+       nav导航 样式
+--------------------------
+*/
+.nav-wrapper{
+	width: 100%;
+    height: 107px;
+    background: url(../images/nav_wrap_bg.png) repeat-x 0 0;
+    position: relative;
+    z-index: 9999;
+}
+.nav-wrapper.fixed {
+	position: fixed;
+	top: 0px;
+}
+.nav-wrapper ul {
+    width: 980px;
+    height: 100px;
+    display: block;
+    margin: 0px auto;
+    border-left: 1px solid #e3e5e6;
+    border-right: 1px solid #e3e5e6;
+}
+.nav-wrapper ul li {
+	width: 326px;
+    height: 100px;
+    display: block;
+    float: left;
+}
+.nav1 {
+	background: url(../images/nav_wrap_icon.png) no-repeat 80px -38px;
+}
+.nav1:hover {
+	background: url(../images/nav_wrap_icon.png) no-repeat 81px 40px;
+}
+.nav1.hover {
+	background: url(../images/nav_wrap_icon.png) no-repeat 81px 40px;
+}
+.nav2 {
+	background: url(../images/nav_wrap_icon.png) no-repeat 80px -194px;
+    border-left: 1px solid #e3e5e6;
+    border-right: 1px solid #e3e5e6;
+}
+.nav2:hover {
+	background: url(../images/nav_wrap_icon.png) no-repeat 80px -118px;
+}
+.nav2.hover {
+	background: url(../images/nav_wrap_icon.png) no-repeat 80px -118px;
+}
+.nav3 {
+	background: url(../images/nav_wrap_icon.png) no-repeat 80px -353px;
+}
+.nav3:hover{
+	background: url(../images/nav_wrap_icon.png) no-repeat 81px -275px;
+}
+.nav3.hover{
+	background: url(../images/nav_wrap_icon.png) no-repeat 81px -275px;
+}
+.nav-wrapper ul li a {
+	display: block;
+	height: 100px;
+	text-indent: -10000px;
+	line-height: 100px;
+}
+/*
+       海量下载 样式
+--------------------------
+*/
+.nav1-wrapper {
+	width: 100%;
+	height: 500px;
+	background-color: #f6f8fa;
+}
+.nav1-wrapper .nav1-content{
+	width: 980px;
+	margin: 0 auto;
+	height: 500px;
+	background: url(../images/free.jpg) no-repeat bottom right;
+	position: relative;
+}
+.nav1-wrapper .nav1-content h1 {
+	height: 45px;
+	width: 980px;
+	text-indent: -10000px;
+	background: url(../images/img.png) no-repeat 1px -340px;
+	position: absolute;
+	top: 150px;
+
+}
+.nav1-wrapper .nav1-content p {
+	font-size: 20px;
+	color:#414b54;
+	line-height: 200%;
+	position: absolute;
+	top: 250px;
+}
+/*
+       无需账号 样式
+--------------------------
+*/
+.nav2-wrapper {
+	width: 100%;
+	height: 510px;
+	background-color: #f0f2f6;
+}
+.nav2-wrapper .jianbian{
+	width: 100%;
+	height: 10px;
+	background: url(../images/jianbian_bg.jpg) center;
+}
+.nav2-wrapper .nav2-content{
+	width: 980px;
+	margin: 0 auto;
+	height: 500px;
+    background: url(../images/none_pwd.jpg) no-repeat left bottom;
+    position: relative;
+}
+.nav2-wrapper .nav2-content h1 {
+	width: 440px;
+	height: 45px;
+	text-indent: -10000px;
+    background: url(../images/img.png) no-repeat 20px -391px;
+    position: absolute;
+    top: 150px;
+    right: 0px;
+}
+.nav2-wrapper .nav2-content p {
+	font-size: 20px;
+	color:#414b54;
+	line-height: 200%;
+	position: absolute;
+	top: 250px;
+	right: 0px;
+}
+/*
+       苹果瘦身 样式
+--------------------------
+*/
+.nav3-wrapper {
+	width: 100%;
+	height: 510px;
+	background-color: #f6f8fa;
+}
+.nav3-wrapper .jianbian{
+	width: 100%;
+	height: 10px;
+	background: url(../images/jianbian_bg.jpg) center;
+}
+.nav3-wrapper .nav3-content{
+	width: 980px;
+	margin: 0 auto;
+	height: 500px;
+    background: url(../images/thin.jpg) no-repeat right bottom;
+    position: relative;
+}
+.nav3-wrapper .nav3-content h1 {
+	width: 100%;
+	height: 45px;
+	text-indent: -10000px;
+   	background: url(../images/img.png) no-repeat 1px -438px;
+    position: absolute;
+    top: 150px;
+}
+.nav3-wrapper .nav3-content p {
+	font-size: 20px;
+	color:#414b54;
+	line-height: 200%;
+	position: absolute;
+	top: 250px;
+}
+/*
+       免费正版安装 样式
+--------------------------
+*/
+.free-app-wrapper {
+	width: 100%;
+	background:url(../images/jianbian_bg.jpg) no-repeat center top #f0f2f6;
+	min-height: 500px;
+	padding-top: 75px;
+	overflow: hidden;
+}
+.free-app-wrapper h1 {
+	height: 22px;
+	width: 440px;
+	margin: 0 auto;
+	text-indent: -10000px;
+    background: url(../images/img.png) 1px -488px no-repeat;
+}
+.free-app-wrapper .free-app-content{
+	width: 980px;
+	margin: 0 auto;
+	min-height: 400px;
+	margin-top: 30px;
+}
+.free-app-wrapper .free-app-content ul {
+	width: 1100px;
+}
+.free-app-wrapper .free-app-content ul li {
+	width: 306px;
+	height: 167px;
+	float: left;
+	margin-right: 31px;
+	margin-bottom: 31px;
+    background: url(../images/free_app_bg.png) no-repeat;
+    position: relative;
+}
+.free-app-wrapper .free-app-content .free-app-left{
+	width: 75px;
+	height: 75px;
+	padding-left: 17px;
+	padding-top: 15px;
+}
+.free-app-wrapper .free-app-content .free-app-right{
+	width: 180px;
+	padding-left: 10px;
+	min-height: 100px;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+}
+.free-app-wrapper .free-app-right h2 {
+    font-size: 14px;
+    color: #676974;
+    line-height: 24px;
+}
+.free-app-wrapper .free-app-right .free-app-num {
+    height: 24px;
+    color: #c1c3c7;
+    font-size: 12px;
+    text-indent: 20px;
+    background: url(../images/img.png) no-repeat -344px -240px;
+}
+.free-app-wrapper .free-app-right p {
+	max-height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    color: #989ba0;
+    line-height: 150%;
+}
+.free-app-wrapper .free-app-right .btn-load {
+    display: block;
+    width: 115px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    background: #6bce5a;
+    font-size: 12px;
+    text-align: center;
+    float: right;
+}
+/*
+       footer 样式
+--------------------------
+*/
+.footer {
+    color: #989ba0;
+    font-size: 12px;
+    line-height: 2em;
+    background: #f6f8fa;
+    text-align: center;
+    padding: 20px;
+}
+/*
+       返回顶部按钮 样式
+--------------------------
+*/
+#topcontrol{
+	position: fixed;
+	bottom: 80px;
+	right: 5px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

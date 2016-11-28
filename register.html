@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册-cheng</title>
+	<link rel="stylesheet" type="text/css" href="css/login-register.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/fontStyle.css">
+</head>
+<body>
+	<div class="register">
+		<div class="wrapper">
+			<div class="register-logo">
+				<img src="images/login_logo2.png" alt="" width="127" height="46">
+				<span>注册</span>
+			</div>
+			<div class="section">
+				<div class="yxzc">
+					<a href="#">邮箱注册</a>
+				</div>
+				<!-- 表单验证 -->
+				<form action="" id="myForm">
+					<div class="input_container">
+						<input type="text" class="reg_login-input" id="register-name" placeholder="请输入正确邮箱账号">
+					</div>
+					<div class="input_container">
+						<input type="password" class="reg_login-input" id="register-pwd" placeholder="请输入密码">
+					</div>
+					<div class="input_container">
+						<input type="text" class="reg_login-input" id="random-letter-input" placeholder="请输入验证码">
+						<div id="random-letter" class="reg_login-input">
+							<div>
+								<span></span>
+								
+							</div>
+							<a class="icon icon-spinner2"></a>
+						</div> 
+					</div>
+					<div class="confirm" id="protocal">
+						<input type="checkbox" checked> 已阅读并同意协议
+					</div>
+
+					<input type="button" id="submit-register" value="注册">
+
+					<div class="reg_login-btn">
+						已有账号？<a href="login.html">立即登录</a>
+					</div>
+
+				</form>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/register.js"></script>
+</body>
+</html>
